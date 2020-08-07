@@ -125,15 +125,11 @@ export default class Login extends Vue {
 </script>
 
 <style lang="scss">
-  $font:#2d3a4b;
-  $bio: #2d3a4bcb;
-  $dark_gray:#889aa4;
-  $light_gray:#eee;
 
   .login-container {
     min-height: 100%;
     width: 100%;
-    background-color: $light_gray;
+    background-color: $login_background;
     overflow: hidden;
     position: fixed;
     display: flex;

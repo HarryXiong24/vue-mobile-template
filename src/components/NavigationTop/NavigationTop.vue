@@ -7,7 +7,9 @@
       <div>{{title}}</div>
     </div>
 
-    <mu-menu slot="right" placement="bottom-end" :open.sync="add">
+    <ColorPalette slot="right"></ColorPalette>
+
+    <mu-menu slot="right" placement="bottom-start" :open.sync="add">
       <mu-button icon class="right">
         <mu-icon value="add" size="30"></mu-icon>
       </mu-button>
@@ -36,10 +38,12 @@
 <script lang="ts">
 import { Prop, Component, Vue } from 'vue-property-decorator';
 import SideBar from '../SiderBar/SiderBar.vue';
+import ColorPalette from '../ColorPalette/ColorPalette.vue';
 
 @Component({
   components: {
-    SideBar
+    SideBar,
+    ColorPalette
   }
 })
 export default class NavigationTop extends Vue {

@@ -64,7 +64,7 @@ export default class Init extends Vue {
     .bottom {
       width: 100%;
       height: 300px;
-      background: #fafafa;
+      background-color: #fafafa;
       z-index: 0;
     }
     .footerGuide {

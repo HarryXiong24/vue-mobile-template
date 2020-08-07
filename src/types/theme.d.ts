@@ -1,0 +1,1 @@
+declare module 'muse-ui/lib/theme'
